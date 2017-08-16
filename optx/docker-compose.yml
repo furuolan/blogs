@@ -1,0 +1,9 @@
+version: '2'
+services:
+  optx_container:
+    container_name: optx_container
+    image: continuumio/anaconda3:4.4.0
+    volumes:
+      - ./:/mnt/app
+    stdin_open: true
+    tty: true
