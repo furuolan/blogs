@@ -1,6 +1,8 @@
 # CVXOPT example
 
-## Blog post: medium.com/@adamnovo/linear-programming-in-python-cvxopt-and-game-theory
+## Blog post
+
+[https://medium.com/@adamnovo/linear-programming-in-python-cvxopt-and-game-theory-8626a143d428](https://medium.com/@adamnovo/linear-programming-in-python-cvxopt-and-game-theory-8626a143d428)
 
 ## Instructions to run code in Docker:
   - Get docker image
