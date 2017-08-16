@@ -4,11 +4,16 @@
   - Get docker image
 
         docker-compose up
-        
+
   - SSH into docker container
+
         docker exec -it optx_container /bin/bash
+
   - Install dependencies
+
         cd mnt/app
         bash requirements.sh
+
   - Run example problems
+  
         python optx.py
