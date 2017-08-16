@@ -91,9 +91,6 @@ class LinProg(object):
                     G += [constraints]
         return np.matrix(G, dtype="float")
 
-    def maximize(self, c, A, b, solver="glpk"):
-        return solvers.lp(c, A, b, solver="glpk")
-
 
 if __name__ == "__main__":
     """
@@ -166,6 +163,7 @@ if __name__ == "__main__":
             lp = LinProg(verbose=True)
             sol = lp.ce(A=A, solver="glpk")
             probs = sol["x"]
+            print(probs)
             self.assertEqual(round(0.5, 5), round(probs[0], 5))
             self.assertEqual(round(0.25, 5), round(probs[1], 5))
             self.assertEqual(round(0.25, 5), round(probs[2], 5))
