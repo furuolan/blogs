@@ -7,7 +7,7 @@
 
   - SSH into docker container
 
-        docker exec -it optx_container /bin/bash
+        docker exec -it cvxopt_container /bin/bash
 
   - Install dependencies
 
@@ -16,4 +16,4 @@
 
   - Run example problems
   
-        python optx.py
+        python cvxopt.py

@@ -1,7 +1,7 @@
 version: '2'
 services:
-  optx_container:
-    container_name: optx_container
+  cvxopt_container:
+    container_name: cvxopt_container
     image: continuumio/anaconda3:4.4.0
     volumes:
       - ./:/mnt/app

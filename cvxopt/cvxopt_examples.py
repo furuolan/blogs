@@ -115,7 +115,7 @@ if __name__ == "__main__":
             A = matrix([ [-1.0, -1.0, 0.0, 1.0], [1.0, -1.0, -1.0, -2.0] ])
             b = matrix([ 1.0, -2.0, 0.0, 4.0 ])
             c = matrix([ 2.0, 1.0 ])
-            sol = lp.maximize(c=c, A=A, b=b, solver="glpk")
+            sol = solvers.lp(c, A, b, solver="glpk")
             probs = sol["x"]
             self.assertEqual(0.5, probs[0])
             self.assertEqual(1.5, probs[1])
