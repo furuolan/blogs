@@ -1,0 +1,16 @@
+version: '2'
+services:
+  the2road_phone:
+    container_name: the2road_phone
+    image: flask_image
+    volumes:
+      - ./:/mnt/app
+    stdin_open: true
+    tty: true
+    environment:
+      - ACCOUNT_SID=
+      - AUTH_TOKEN=
+      - TWILIO_NUMBER=""
+      - MY_NUMBER=""
+    ports:
+      - "5000:5000"

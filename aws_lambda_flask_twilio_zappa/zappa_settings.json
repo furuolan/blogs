@@ -1,0 +1,12 @@
+{
+    "dev": {
+        "app_function": "sms.app",
+        "s3_bucket": "",
+        "environment_variables": {
+            "ACCOUNT_SID": "",
+            "AUTH_TOKEN": "",
+            "TWILIO_NUMBER": "",
+            "MY_NUMBER": ""
+        }
+    }
+}
