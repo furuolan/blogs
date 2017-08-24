@@ -1,0 +1,18 @@
+version: '2'
+services:
+  fb_bot:
+    container_name: fb_bot
+    build:
+      context: .
+    image: flask_image
+    volumes:
+      - ./:/mnt/app
+    stdin_open: true
+    tty: true
+    environment:
+      - ID=1
+      - PAGE_ACCESS_TOKEN=
+      - VERIFY_TOKEN=
+      - FB_ID=
+    ports:
+      - "5000:5000"

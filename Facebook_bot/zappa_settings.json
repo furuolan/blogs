@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "app_function": "bot.app",
+        "s3_bucket": "zappa-2341242",
+        "environment_variables": {
+            "ID": "1",
+            "PAGE_ACCESS_TOKEN": "",
+            "VERIFY_TOKEN": "",
+            "FB_ID": ""
+        },
+        "events": [{
+            "function": "bot.quote_reminders",
+            "expression": "rate(45 minutes)" // When to execute it (in cron or rate format)
+        }]
+    }
+}
