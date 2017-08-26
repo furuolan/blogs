@@ -1,4 +1,7 @@
 # Facebook bot : Flask + AWS Lambda + Zappa
+## Bot features
+  - Facebook bot sends motivational quotes every 3 hours to FB Messanger
+  - Responds to questions about local time in city. Example: "Time in New York?"
 
 ## Instructions to run code in Docker:
   - Save AWS credentials in keys/credentials and keys/config.<sup>1</sup>

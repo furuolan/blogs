@@ -1,7 +1,5 @@
 # source: https://github.com/github/gitignore/blob/master/Python.gitignore
 *.DS_Store
-projecttrust/setup.py
-projecttrust/db/data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
