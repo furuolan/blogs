@@ -6,11 +6,12 @@
             "ID": "1",
             "PAGE_ACCESS_TOKEN": "",
             "VERIFY_TOKEN": "",
-            "FB_ID": ""
+            "FB_ID": "",
+            "APIAI_BEARER": ""
         },
         "events": [{
             "function": "bot.quote_reminders",
-            "expression": "rate(45 minutes)" // When to execute it (in cron or rate format)
+            "expression": "rate(180 minutes)" // When to execute it (in cron or rate format)
         }]
     }
 }

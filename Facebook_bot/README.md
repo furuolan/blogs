@@ -1,10 +1,9 @@
 # Facebook bot : Flask + AWS Lambda + Zappa
-Bot responds to user messages with current time. Every 45 minutes it send a motivational quote using AWS lambda scheduling.
 
 ## Instructions to run code in Docker:
   - Save AWS credentials in keys/credentials and keys/config.<sup>1</sup>
 
-  - Update environmental variables in "docker-compose environment:" and "zappa_settings.json"
+  - Update environmental variables in "docker-compose environment" and "zappa_settings.json"
 
   - Build docker and image:
 
@@ -15,7 +14,7 @@ Bot responds to user messages with current time. Every 45 minutes it send a moti
 
         ngrok http 5000
 
-  - AWS: get zappa deploy URL from next step
+  - AWS: zappa deploy URL below
 
 ## Instructions to deploy to AWS Lambda:
 

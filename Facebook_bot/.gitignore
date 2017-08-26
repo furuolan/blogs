@@ -1,7 +1,7 @@
 # source: https://github.com/github/gitignore/blob/master/Python.gitignore
 *.DS_Store
 keys
-my_env
+project_env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
