@@ -1,0 +1,15 @@
+version: '2'
+services:
+  flask_app:
+    container_name: flask_app
+    build:
+      context: .
+    image: flask_default_image
+    volumes:
+      - ./:/mnt/app
+    stdin_open: true
+    tty: true
+    environment:
+      - ID=1
+    ports:
+      - "5000:5000"
